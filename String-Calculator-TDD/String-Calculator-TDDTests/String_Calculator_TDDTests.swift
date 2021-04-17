@@ -8,6 +8,31 @@
 import XCTest
 @testable import String_Calculator_TDD
 
-class String_Calculator_TDDTests: XCTestCase {
+final class StringCalculator {
 
+    private let separators = CharacterSet.init(charactersIn: ",/n")
+
+    func add(_ values: String) -> Int {
+        return sumOfIntArray(convertStringToIntArray(values))
+    }
+
+    private func convertStringToIntArray(_ stringValue: String) -> [Int?] {
+        let valuesAsStringArray = stringValue.components(separatedBy: separators)
+        return valuesAsStringArray.map { Int($0) }
+    }
+
+    func sumOfIntArray(_ intArray: [Int?]) -> Int {
+        guard intArray.filter ({ $0 == nil }).isEmpty else {
+            return 0
+        }
+        return 10
+    }
+}
+
+class String_Calculator_TDDTests: XCTestCase {
+    func test_emptyString() {
+        let sut = StringCalculator()
+
+        XCTAssertEqual(sut.add(""), 0)
+    }
 }
