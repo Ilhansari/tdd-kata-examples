@@ -42,4 +42,16 @@ class String_Calculator_TDDTests: XCTestCase {
 
         XCTAssertEqual(sut.add("1"), 1)
     }
+
+    func test_twoNumberReturnSumOfNumber() {
+        let sut = StringCalculator()
+
+        XCTAssertEqual(sut.add("1,2"), 3)
+    }
+
+    func test_invalidInputReturnZero() {
+        let sut = StringCalculator()
+
+        XCTAssertEqual(sut.add("1;2;3;"), 0)
+    }
 }
