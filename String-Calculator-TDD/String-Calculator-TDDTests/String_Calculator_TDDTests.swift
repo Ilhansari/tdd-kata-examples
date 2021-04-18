@@ -25,7 +25,8 @@ final class StringCalculator {
         guard intArray.filter ({ $0 == nil }).isEmpty else {
             return 0
         }
-        return 10
+
+        return Int(intArray.reduce(0) { $0 + $1! })
     }
 }
 
@@ -34,5 +35,11 @@ class String_Calculator_TDDTests: XCTestCase {
         let sut = StringCalculator()
 
         XCTAssertEqual(sut.add(""), 0)
+    }
+
+    func test_singleNumberReturnSameNumber() {
+        let sut = StringCalculator()
+
+        XCTAssertEqual(sut.add("1"), 1)
     }
 }
