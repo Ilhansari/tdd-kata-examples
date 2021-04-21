@@ -71,4 +71,10 @@ class String_Calculator_TDDTests: XCTestCase {
 
         XCTAssertEqual(try sut.add("1\n2\n3\n4\n5\n6\n7\n8\n9\n10"), 55)
     }
+
+    func test_handleNewLinesBetweenNumbersWithComma() {
+        let sut = StringCalculator()
+
+        XCTAssertEqual(try sut.add("1,\n2"), 0)
+    }
 }
