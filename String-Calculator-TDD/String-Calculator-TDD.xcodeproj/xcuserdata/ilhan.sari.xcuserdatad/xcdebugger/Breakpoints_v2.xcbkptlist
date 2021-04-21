@@ -7,17 +7,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5197DAC4-6A62-41E5-8619-BA3AF8B6FCBD"
+            uuid = "A6C3D97B-60ED-4A37-8FAD-7006DC942445"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "String-Calculator-TDDTests/String_Calculator_TDDTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "convertStringToIntArray(_:)"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "sumOfIntArray(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A6C3D97B-60ED-4A37-8FAD-7006DC942445 - 2060a6fd25c4532"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "String_Calculator_TDDTests.StringCalculator.sumOfIntArray(Swift.Array&lt;Swift.Optional&lt;Swift.Int&gt;&gt;) throws -&gt; Swift.Int"
+                  moduleName = "String-Calculator-TDDTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilhan.sari/Documents/personal/tdd-kata-examples/String-Calculator-TDD/String-Calculator-TDDTests/String_Calculator_TDDTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "318">
+               </Location>
+               <Location
+                  uuid = "A6C3D97B-60ED-4A37-8FAD-7006DC942445 - b9871bb4299ace81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Int&gt;) -&gt; Swift.Bool in String_Calculator_TDDTests.StringCalculator.sumOfIntArray(Swift.Array&lt;Swift.Optional&lt;Swift.Int&gt;&gt;) throws -&gt; Swift.Int"
+                  moduleName = "String-Calculator-TDDTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilhan.sari/Documents/personal/tdd-kata-examples/String-Calculator-TDD/String-Calculator-TDDTests/String_Calculator_TDDTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "61">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -12,6 +12,10 @@ final class StringCalculator {
 
     private let separators = CharacterSet.init(charactersIn: ";,\n")
 
+    enum negativeNumbersError: Error {
+        case negativesNotAllowed
+    }
+
     func add(_ values: String) throws -> Int {
         do {
             return try sumOfIntArray(convertStringToIntArray(values))
@@ -29,6 +33,10 @@ final class StringCalculator {
     func sumOfIntArray(_ intArray: [Int?]) throws -> Int {
         guard intArray.filter ({ $0 == nil }).isEmpty else {
             return 0
+        }
+
+        guard intArray.filter ({ $0! < 0 }).isEmpty else {
+            throw negativeNumbersError.negativesNotAllowed
         }
 
         return Int(intArray.reduce(0) { $0 + $1! })
@@ -82,5 +90,11 @@ class String_Calculator_TDDTests: XCTestCase {
         let sut = StringCalculator()
 
         XCTAssertEqual(try sut.add("1;2;3;4"), 10)
+    }
+
+    func test_NegativeNumbersSupport() {
+        let sut = StringCalculator()
+
+        XCTAssertThrowsError(try sut.add("-1,-2,-3"))
     }
 }
