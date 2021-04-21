@@ -10,7 +10,7 @@ import XCTest
 
 final class StringCalculator {
 
-    private let separators = CharacterSet.init(charactersIn: ",\n")
+    private let separators = CharacterSet.init(charactersIn: ";,\n")
 
     func add(_ values: String) throws -> Int {
         do {
@@ -76,5 +76,11 @@ class String_Calculator_TDDTests: XCTestCase {
         let sut = StringCalculator()
 
         XCTAssertEqual(try sut.add("1,\n2"), 0)
+    }
+
+    func test_supportDifferentdelimiters() {
+        let sut = StringCalculator()
+
+        XCTAssertEqual(try sut.add("1;2;3;4"), 10)
     }
 }
