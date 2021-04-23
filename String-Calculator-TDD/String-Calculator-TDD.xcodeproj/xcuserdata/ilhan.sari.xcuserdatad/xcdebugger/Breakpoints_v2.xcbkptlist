@@ -7,20 +7,20 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A6C3D97B-60ED-4A37-8FAD-7006DC942445"
+            uuid = "AE366746-357D-440A-84D6-E06CC7D3DE60"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "String-Calculator-TDDTests/String_Calculator_TDDTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "sumOfIntArray(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "A6C3D97B-60ED-4A37-8FAD-7006DC942445 - 2060a6fd25c4532"
+                  uuid = "AE366746-357D-440A-84D6-E06CC7D3DE60 - 2060a6fd25c44be"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -30,24 +30,72 @@
                   urlString = "file:///Users/ilhan.sari/Documents/personal/tdd-kata-examples/String-Calculator-TDD/String-Calculator-TDDTests/String_Calculator_TDDTests.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "318">
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "51">
                </Location>
                <Location
-                  uuid = "A6C3D97B-60ED-4A37-8FAD-7006DC942445 - b9871bb4299ace81"
+                  uuid = "AE366746-357D-440A-84D6-E06CC7D3DE60 - 3991a0d2f493410a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Int&gt;) -&gt; Swift.Bool in String_Calculator_TDDTests.StringCalculator.sumOfIntArray(Swift.Array&lt;Swift.Optional&lt;Swift.Int&gt;&gt;) throws -&gt; Swift.Int"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Int&gt;) -&gt; Swift.Bool in String_Calculator_TDDTests.StringCalculator.sumOfIntArray(Swift.Array&lt;Swift.Optional&lt;Swift.Int&gt;&gt;) throws -&gt; Swift.Int"
                   moduleName = "String-Calculator-TDDTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ilhan.sari/Documents/personal/tdd-kata-examples/String-Calculator-TDD/String-Calculator-TDDTests/String_Calculator_TDDTests.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "61">
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "57">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1301335-75BB-4C2F-8F91-2B20BB392114"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "String-Calculator-TDDTests/String_Calculator_TDDTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "sumOfIntArray(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B1301335-75BB-4C2F-8F91-2B20BB392114 - 2060a6fd25c45b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "String_Calculator_TDDTests.StringCalculator.sumOfIntArray(Swift.Array&lt;Swift.Optional&lt;Swift.Int&gt;&gt;) throws -&gt; Swift.Int"
+                  moduleName = "String-Calculator-TDDTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilhan.sari/Documents/personal/tdd-kata-examples/String-Calculator-TDD/String-Calculator-TDDTests/String_Calculator_TDDTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "576">
+               </Location>
+               <Location
+                  uuid = "B1301335-75BB-4C2F-8F91-2B20BB392114 - ca8c94cc1ece638e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Int, Swift.Optional&lt;Swift.Int&gt;) -&gt; Swift.Int in String_Calculator_TDDTests.StringCalculator.sumOfIntArray(Swift.Array&lt;Swift.Optional&lt;Swift.Int&gt;&gt;) throws -&gt; Swift.Int"
+                  moduleName = "String-Calculator-TDDTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilhan.sari/Documents/personal/tdd-kata-examples/String-Calculator-TDD/String-Calculator-TDDTests/String_Calculator_TDDTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "98">
                </Location>
             </Locations>
          </BreakpointContent>

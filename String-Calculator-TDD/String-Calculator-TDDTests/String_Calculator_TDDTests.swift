@@ -10,7 +10,7 @@ import XCTest
 
 final class StringCalculator {
 
-    private let separators = CharacterSet.init(charactersIn: ";,\n")
+    private let separators = CharacterSet.init(charactersIn: "/\\[*][%]*%;,\n")
 
     enum negativeNumbersError: Error {
         case negativesNotAllowed
