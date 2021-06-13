@@ -10,7 +10,7 @@ import XCTest
 
 final class StringCalculator {
 
-    private let separators = CharacterSet.init(charactersIn: "/\\[*][%]*%;,\n")
+    private let separators = CharacterSet.init(charactersIn: "//[***],;\n***")
 
     enum negativeNumbersError: Error {
         case negativesNotAllowed
@@ -68,12 +68,6 @@ class String_Calculator_TDDTests: XCTestCase {
         XCTAssertEqual(try sut.add("1;2;3;"), 0)
     }
 
-    func test_handleAmountOfNumbers() {
-        let sut = StringCalculator()
-
-        XCTAssertEqual(try sut.add("1,2,3,4,5,6,7,8,9,10"), 55)
-    }
-
     func test_handleNewLinesBetweenNumbers() {
         let sut = StringCalculator()
 
@@ -96,5 +90,11 @@ class String_Calculator_TDDTests: XCTestCase {
         let sut = StringCalculator()
 
         XCTAssertThrowsError(try sut.add("-1,-2,-3"))
+    }
+
+    func test_handleDelimitersNumbers() {
+        let sut = StringCalculator()
+
+        XCTAssertEqual(try sut.add("1***2***3//[***]\n"), 6)
     }
 }

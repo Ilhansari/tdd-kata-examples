@@ -55,7 +55,23 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B1301335-75BB-4C2F-8F91-2B20BB392114"
+            uuid = "F7E9415B-A182-48AE-937A-A6345ED91B89"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "String-Calculator-TDDTests/String_Calculator_TDDTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "convertStringToIntArray(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7146D514-48D5-4D9E-B4D2-34B9CCAE3A06"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -68,7 +84,7 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "B1301335-75BB-4C2F-8F91-2B20BB392114 - 2060a6fd25c45b6"
+                  uuid = "7146D514-48D5-4D9E-B4D2-34B9CCAE3A06 - 2060a6fd25c45b6"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -83,7 +99,7 @@
                   offsetFromSymbolStart = "576">
                </Location>
                <Location
-                  uuid = "B1301335-75BB-4C2F-8F91-2B20BB392114 - ca8c94cc1ece638e"
+                  uuid = "7146D514-48D5-4D9E-B4D2-34B9CCAE3A06 - ca8c94cc1ece638e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
